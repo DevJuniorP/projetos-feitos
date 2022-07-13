@@ -1,0 +1,5 @@
+EM ALGUNS CASOS QUANDO NÃO DER DE COLCOAR UM ITEM NO CENTRO TENTE COLOCAR ELE COMO 
+DISPLAY BLOCK, VER PLANO__PRECO DA PARTE CSS.
+
+PARA FAZER O EFEITO DE SCROLL SUAVE
+COLOCA-SE um id #(NOME) na section/div que você irá querer, depois ir em csss e colocar na tag HTML o a função scroll-behavior 
