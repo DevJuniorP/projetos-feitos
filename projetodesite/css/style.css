@@ -1,0 +1,380 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700;900&display=swap');
+
+.center{
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 2%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.container-menu{
+    background-color: white;
+    padding: 20px 0;
+    border-bottom: 1.6px solid rgb(200, 200, 200);
+}
+
+.logo{
+    color: #16507b;
+}
+
+.logo h2{
+    font-weight: normal;
+    font-size: 20px;
+}
+
+.menu-mobile{
+    display: none;
+}
+
+.menu a{
+    color: #124265;
+    font-size: 14px;
+    text-decoration: none;
+    margin-right: 30px;
+
+}
+
+.menu .btn{
+    background-color: #007bff;
+    display: inline-block;
+    padding: 5px 15px;
+    border-radius: 3px;
+    color: white;
+    margin-right: 0;
+}
+
+
+.menu .btn:hover{
+    color: white;
+    background-color: #0264cc;
+    transition: 0.3s;
+}
+
+.menu a:hover{
+    color: #007bff;
+    transition: 0.3s;
+}
+
+/*
+Section
+*/
+
+.center-section{
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 2%;
+    display: flex;
+    flex-direction: column;
+}
+
+section.container-conteudo{
+    background-image: url('../wallpaper004.jpg');
+    padding: 70px 0;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.center-cta{
+    margin: 60px 0;
+    text-align: center;
+}
+
+.center-cta h2{
+    color: #16507b;
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.center-cta p {
+    color: gray;
+    font-size: 19px;
+    margin: 10px 0;
+}
+
+.center-cta button{
+    background-color: #007bff;
+    display: inline-block;
+    padding: 8px 30px;
+    border-radius: 4px;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-top: 15px;
+    font-size: 16px;
+}
+
+.diferenciais{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.diferencial-single{
+    background-color: white;
+    width: 23%;
+    margin-right: 2%;
+    padding: 50px 20px;
+    border-radius: 10px;
+}
+
+.diferencial-single i{
+    color: #124265;
+    font-size: 23px;
+}
+
+.diferencial-single h2{
+    color: #124265;
+    margin: 10px;
+    font-size: 17px;
+}
+
+.diferencial-single p {
+    color: gray;
+    font-size: 14px;
+    line-height: 30px;
+}
+
+section.sobre{
+    padding: 80px 0;
+}
+
+.chamada-sobre{
+    text-align: center;
+    width: 100%;
+}
+
+.chamada-sobre h2{
+    color: #124265;
+    text-transform: uppercase;
+}
+
+.chamada-sobre p{
+    font-size: 13px;
+    color: gray;
+    margin: 10px 0;
+}
+
+.conteudo-sobre{
+    display: flex;
+}
+
+.conteudo-sobre p{
+    margin: 0 20px;
+    color: #444444;
+}
+
+.conteudo-sobre span{
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.conteudo-sobre i{
+    color: #007bff;
+}
+
+.btn-sobre{
+    background: none;
+    border: none;
+    border: 2px solid #007bff;
+    padding: 6px 30px;
+    margin: 20px 0;
+    color: #007bff;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+section.conquistas{
+    background-color: #f8fbfe;
+    padding: 20px 0;
+}
+
+.conquista-single{
+    color: #124265;
+    width: 22%;
+    margin-right: 3%;
+    text-align: center;
+}
+
+.conquista-single h2{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.conquista-single img{
+    max-width: 100%;
+}
+
+.conquista-single img{
+    filter: grayscale(100%);
+    transform: scale(1,1);
+    transition: 0.8s;
+}
+
+.conquista-single img:hover{
+    filter: grayscale(0);
+    transform: scale(1.1);
+}
+
+.menu-items{
+    position: absolute;
+    left: 0%;
+    top: 60px;
+    width: 100%;
+    text-align: center;
+    border-bottom: 2px solid #124265;
+    background-color: white;
+    display: block;
+    transition: 1s;
+    opacity: 0;
+}
+
+.menu-items a{
+    display: block;
+    text-decoration: none;
+    color: #124265;
+}
+
+section.sobre-empreendedor{
+    padding: 40px 0;
+}
+
+.sobre-empreendedor-img{
+    width: 50%;
+}
+
+.sobre-empreendedor-img img{
+    max-width: 100%;
+}
+
+.sobre-empreendedor-content{
+    width: 50%;
+    padding: 0 50px;
+}
+
+.sobre-empreendedor-content h2{
+    color: #124265;
+    margin-bottom: 20px;
+}
+
+.sobre-empreendedor-content p{
+    color: #444;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.sobre-empreendedor-p1{
+    font-style: italic;
+    font-size: 10px;
+}
+
+.sobre-empreendedor-content i{
+    margin-bottom: 10px;
+    color: #007bff;
+}
+
+.depoimentos{
+    padding: 40px 0;
+}
+
+section.depoimentos .depoimentos-chamada{
+    text-align: center;
+}
+
+section.depoimentos h2{
+    color: #124265;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
+.depoimentos-chamada p {
+    color: #ccc;
+    margin: 10px 0;
+    font-size: 14px;
+}
+
+.carrossel{
+    display: flex;
+}
+
+.carrossel-single{
+    width: 31%;
+    margin-right: 2%;
+    text-align: center; 
+}
+
+.carrossel-single-box{
+    padding: 20px;
+    background-color: #f3f9fd;
+    border-radius: 10px;
+}
+
+.carrossel-single-box p {
+    font-style: italic;
+    font-size: 14px;
+    color: #4b4b4b;
+}
+
+.carrossel-single-box i{
+    margin: 0 5px;
+    font-size: 20px;
+    color: #c9e3f5;
+}
+
+.carrossel-single img{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%; 
+    display: inline-block;
+    margin: 10px 0;
+}
+
+.carrossel-single span{
+    color: #ccc;
+    font-size: 12px;
+}
+
+.carrossel-single p {
+    font-weight: bold;
+}
+@media screen and (max-width: 768px){
+    .diferencial-single{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .conteudo-sobre{
+        width: 100%;
+        flex-wrap:wrap ;
+    }
+    .conteudo-sobre p{
+        margin-bottom: 20px;
+    }
+    .menu-mobile{
+        display: block;
+    }
+    .menu-mobile i{
+        cursor: pointer;
+        font-size: 23px;
+    }
+    .menu{
+        display: none;
+    }
+    .sobre-empreendedor-img{
+        width: 100%;
+    }
+    .sobre-empreendedor-content{
+        padding-top: 20px;
+        width: 100%;
+        margin: auto auto;
+    }
+}
