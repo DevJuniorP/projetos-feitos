@@ -5,38 +5,44 @@
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <link rel="stylesheet" href="css/styles.css">
-   <title>Gerador de Senha</title>
+   <title>Gerador de Senhas</title>
 </head>
 <body>
-   <main>
 
-      <input type="text" id="inputPasswordId">
-
-      <div>
-         <input id="inputLengthId" type="range" min="6" max="24"/>
-         <label for="inputLengthId"></label>
-      </div>
+   <div class="container">
+      <input type="text" id="inputPassword">
 
       <div>
-         <input type="checkbox" id="chkLowerId">
-         <label for="chkLowerId">Letras Minúsculas</label>
+         <input type="range" min="6" max="24" id="inputLength">
+         <label for="inputLength"></label>
       </div>
+
+      <p id="aviso">Marque abaixo quais elementos <br> você quer presente na sua senha</p>
+
       <div>
-         <input type="checkbox" id="chkUpperId">
-         <label for="chkUpperId">Letras Maiúsculas</label>
+         <input type="checkbox" id="checkLower">
+         <label for="checkLower">Letras Minúsculas</label>
       </div>
+
       <div>
-         <input type="checkbox" id="chkNumberId">
-         <label for="chkNumberId">Números</label>
+         <input type="checkbox" id="checkUpper">
+         <label for="checkUpper">Letras Maiúsculas</label>
       </div>
+
       <div>
-         <input type="checkbox" id="chkSymbolsId">
-         <label for="chkSymbolsId">Símbolos</label>
+         <input type="checkbox" id="checkNumbers">
+         <label for="checkNumbers">Números</label>
+      </div>
+
+      <div>
+         <input type="checkbox" id="checkSymbols">
+         <label for="checkSymbols">Símbolos</label>
       </div>
 
       <button id="btnGerar">Gerar</button>
-      
-   </main>
+
+   </div><!--container-->
+
    <script src="js/script.js"></script>
 </body>
 </html>
